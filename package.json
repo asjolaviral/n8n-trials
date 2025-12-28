@@ -1,8 +1,15 @@
 {
-"name": "n8n-on-render",
-"private": true,
-"version": "2.x.x",
-"engines": { "node": ">=18.18.0 <21.0.0" },
-"scripts": { "start": "n8n start" },
-"dependencies": { "n8n": "^2.x.x" }
+  "name": "n8n-render",
+  "version": "1.0.0",
+  "private": true,
+  "description": "n8n workflow automation deployed on Render",
+  "scripts": {
+    "start": "n8n start"
+  },
+  "dependencies": {
+    "n8n": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=18 <21"
+  }
 }
